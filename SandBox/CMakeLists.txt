@@ -10,5 +10,9 @@ target_sources(SandBox PRIVATE
 
 
 target_link_libraries(SandBox PRIVATE 
-    SDL3
+    SDL3::SDL3
+    spdlog::spdlog
+    fmt::fmt
+    decor-0
+    CppGame
 )

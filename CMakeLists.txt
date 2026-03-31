@@ -23,6 +23,7 @@ find_package(fmt)
     # add_subdirectory(dll_impl_example)
     # add_subdirectory(dll_usage_example)
 add_subdirectory(SandBox)
+add_subdirectory(CppGame)
 
 # Remove any file(COPY_FILE) or file(GENERATE) lines related to compile_commands.json
 
