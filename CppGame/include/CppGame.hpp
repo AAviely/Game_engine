@@ -1,4 +1,5 @@
 #pragma once
+#include "Application.hpp"
 
 #if defined(_WIN32)
 #define ALLOWS_EXPORT __declspec(dllexport)

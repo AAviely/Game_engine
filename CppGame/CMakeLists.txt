@@ -11,7 +11,7 @@ set_target_properties(CppGame PROPERTIES
 )
 
 target_sources(CppGame PRIVATE
-    src/CppGame.cpp
+    src/Application.cpp
 )
 
 target_link_libraries(CppGame PRIVATE
